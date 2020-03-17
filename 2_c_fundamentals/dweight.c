@@ -10,6 +10,6 @@ int main(void) {
     
     printf("Dimensions: %dx%dx%d\n", length, weight, height);
     printf("Vloume (cubic inches): %d\n", volume);
-    printf("Dimensional weight (pounds): %d\n", weight);
+    printf("Dimensional weight (pounds): %d\n", (volume + 165) /166);
     return 0;
 }
