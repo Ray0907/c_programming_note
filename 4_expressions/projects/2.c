@@ -2,7 +2,7 @@
 
 int main(void) {
 	int i, j, k, target;
-	printf("Enter three-digit number: ");
+	printf("Enter a three-digit number: ");
 	scanf("%d", &target);
 	i = target/ 100;
 	j = (target - i * 100) / 10;
