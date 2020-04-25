@@ -25,3 +25,6 @@ Reading and writing characters using getchar and putchar
 getchar、putchar比scanf 、printf速度還快的原因
 
 1. scanf and printf 要先解析format後才輸出，而 getchar putchar是一次一個字符的I/O 
+
+Data Type
+===	
