@@ -28,3 +28,4 @@ getchar、putchar比scanf 、printf速度還快的原因
 
 Data Type
 ===	
+![image](https://github.com/Ray0907/c_programming_note/blob/master/7_basic_types/data_type.png)
