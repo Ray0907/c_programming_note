@@ -16,7 +16,4 @@ Storage classes
 
 - *static* and *extern* are the most important.
 - *auto* hs no effect
-- modern compilers
-
-
- have made *register* less important.
+- modern compilers have made *register* less important.
