@@ -36,3 +36,17 @@ void push(int i) {
 	new_node-> next = top;
 	top = new_node;
 }
+
+int pop(void) {
+	struct node *old_top;
+	int i;
+
+	if(is_empty())
+		terminate("Error in opo: stack is empty.");
+	
+	old_top = top;
+	i = top -> data;
+	top = top-> next;
+	free(old_top);
+	return i;
+}
